@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+java -cp "$(dirname "$0")/scala-library.jar:$(dirname "$0")/scala-compiler.jar:$(dirname "$0")/jline.jar" -Dscala.usejavacp=true scala.tools.nsc.MainGenericRunner %*
